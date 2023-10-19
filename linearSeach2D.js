@@ -22,3 +22,6 @@ if(result!== null){
 }else{
     console.log(`${targetValue} not found in the 2D array.`);
 }
+
+
+
