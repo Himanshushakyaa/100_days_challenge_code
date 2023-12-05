@@ -1,5 +1,3 @@
-//find the factorial 
-  
 let input = require('prompt-sync')()
 
 let number = parseInt(input(console.log('Enter positive number')))
