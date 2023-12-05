@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "dsaproblem",
   "version": "1.0.0",
   "description": "",
@@ -8,9 +9,22 @@
     "prompt-sync": "^4.2.0",
     "strip-ansi": "^5.2.0"
   },
+=======
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DSA.js",
+>>>>>>> d13cc6916c41df9df95917265f60ce5d36a6818a
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC"
+=======
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+>>>>>>> d13cc6916c41df9df95917265f60ce5d36a6818a
 }

@@ -1,0 +1,67 @@
+<!-- <!doctype html>
+<html>
+  <head>
+   <title>audio tag example</title>
+  </head>
+  <body>
+    <audio controls>
+      <source  src="/Practice/Jindagi_Ki_Rahon_Mein_Ranjo_Gam_Ke_Mele_1080P_Song(128k).mp3" type="audio/mp3" /> -->
+      <!-- <source src="/Jaan_Mein_Jaan_Si_Aajaye_____Udit_Narayan___love_Songs_by_Udit_Narayan___WINGS_MUSIC(128k).m4a" type="audio/mp3" /> -->
+      
+    <!-- </audio>
+    <audio  controls>
+      src="<source src="/Practice/Tujh_Sang_Preet_Lagayi_Sajna_-_Kishore___Lata_Mangeshkar___Kaamchor__1982_(128k).mp3" type="audio/mp3" />
+    </audio>
+  </body>
+</html>   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React without Installing using "Hooks"</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.14.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.14.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/react-hooks@^4.2.0/umd/react-hooks.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Counter() {
+            const [count, setCount] = React.useState(0);
+            function increment() {
+                setCount(count + 1);
+            }
+            const [count2, setCount2] = React.useState(0);
+            function decrement() {
+                setCount2(count2 - 1);
+            }
+
+            const [Total, setCount3] = React.useState(0)
+            function total() {
+                setCount3(count + count2);
+            }
+            
+            return (
+                <div>
+                    <h2>Count: {count}</h2>
+                    <h2>Count2: {count2}</h2>
+                    <h1>Total: {Total} </h1>
+                    <button onClick={increment}>Increment</button>
+                    <button onClick={decrement}>Decrement</button>
+                    <button onClick={total}>Total</button>
+                </div>
+            );
+        }
+        ReactDOM.render(
+            <Counter />,
+            document.getElementById("root")
+        );
+    </script>
+</body>
+
+</html>
